@@ -1,3 +1,11 @@
+/**
+ * @file vl53l0x.h
+ * @brief Define a interface pública (API) para o driver do sensor de distância ToF VL53L0X.
+ *
+ * Este arquivo declara as estruturas e funções para interagir com o sensor,
+ * abstraindo a complexa sequência de inicialização e leitura.
+ */
+
 #ifndef VL53L0X_H
 #define VL53L0X_H
 
@@ -7,7 +15,10 @@
 
 #define VL53L0X_ADDRESS 0x29
 
-// Enum COMPLETO com todos os registradores para evitar mais erros de compilação.
+/**
+ * @brief Enumeração completa dos registradores do VL53L0X.
+ * Usar nomes em vez de números hexadecimais torna o código do driver mais legível.
+ */
 enum regAddr {
   SYSRANGE_START                              = 0x00,
   SYSTEM_THRESH_HIGH                          = 0x0C,
@@ -58,7 +69,6 @@ enum regAddr {
   VHV_CONFIG_PAD_SCL_SDA__EXTSUP_HV           = 0x89,
   ALGO_PHASECAL_LIM                           = 0x30,
   ALGO_PHASECAL_CONFIG_TIMEOUT                = 0x30,
-  // Adicionei este registrador que também estava faltando na minha versão simplificada
   RESULT_RANGE_MM                             = 0x1E, 
 };
 
