@@ -4,7 +4,7 @@
 ![Plataforma](https://img.shields.io/badge/Plataforma-Raspberry%20Pi%20Pico-purple.svg)
 ![Sensor](https://img.shields.io/badge/Sensor-VL53L0X-red.svg)
 
-Este repositório contém um código teste para o sensor de distância I2C VL53L0X (Time-of-Flight), desenvolvido em C para o Raspberry Pi Pico W (BITDOGLAB)
+Este repositório contém um código teste para o sensor de distância I2C VL53L0X (Time-of-Flight), desenvolvido em C para o Raspberry Pi Pico W (BITDOGLAB).
 
 O projeto se destaca pela implementação de um driver robusto para um sensor de alta complexidade. A inicialização do VL53L0X requer uma sequência específica e longa de configurações, que foi portada de implementações de referência e encapsulada em um driver limpo e reutilizável (`vl53l0x.c` e `.h`).
 
@@ -48,7 +48,7 @@ const uint I2C_SDA_PIN = 0;
 const uint I2C_SCL_PIN = 1;
 ```
 ## Visualizar a Saída
-* Conecte o sensor TCS34725 na porta I2C configurada.
+* Conecte o sensor VL53L0X na porta I2C configurada.
 * Aponte o sensor para um objeto a uma distância de até ~1.2 metros.
 * Abra um monitor serial conectado à porta COM do seu Pico. Você verá a seguinte saída:
 ```bash
