@@ -4,7 +4,7 @@
 ![Plataforma](https://img.shields.io/badge/Plataforma-Raspberry%20Pi%20Pico-purple.svg)
 ![Sensor](https://img.shields.io/badge/Sensor-VL53L0X-red.svg)
 
-Este repositório contém um código de teste para o sensor de distância I2C VL53L0X (Time-of-Flight), desenvolvido em C para o Raspberry Pi Pico (BITDOGLAB)
+Este repositório contém um código teste para o sensor de distância I2C VL53L0X (Time-of-Flight), desenvolvido em C para o Raspberry Pi Pico W (BITDOGLAB)
 
 O projeto se destaca pela implementação de um driver robusto para um sensor de alta complexidade. A inicialização do VL53L0X requer uma sequência específica e longa de configurações, que foi portada de implementações de referência e encapsulada em um driver limpo e reutilizável (`vl53l0x.c` e `.h`).
 
