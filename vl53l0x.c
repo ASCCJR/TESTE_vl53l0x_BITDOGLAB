@@ -6,6 +6,10 @@
  * sequência de inicialização baseada na API da STMicroelectronics.
  */
 
+/**
+ * https://github.com/ASCCJR
+ */
+
 #include "vl53l0x.h"
 #include "pico/stdlib.h"
 #include <string.h>
