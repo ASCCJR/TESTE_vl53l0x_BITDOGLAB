@@ -6,6 +6,10 @@
  * abstraindo a complexa sequência de inicialização e leitura.
  */
 
+/**
+ * https://github.com/ASCCJR
+ */
+
 #ifndef VL53L0X_H
 #define VL53L0X_H
 
