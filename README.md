@@ -71,4 +71,4 @@ Fora de alcance.
   
 ✍️ Autor
 
-[ASSCJR]
+Antonio Sergio Castro de Carvalho Junior
